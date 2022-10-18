@@ -15,5 +15,13 @@ Diese Ausbildungsrichtung vermittelt alle informationstechnischen Kenntnisse, di
 8. SpriteAnimation - Minispiel
 9. Session Storage
 
+## Beschreibung
+
+### TicTacToe
+Zwei Spieler spielengegen einander, wobei sie abwechselnd ein leeres Feld mit ihrem Zeichen markieren. Es wird auf einem 3x3 Feld gespielt.
+
+### Würfelbeispiel
+Ein klassisches Würfelspiel bei dem zwei Spieler zunächst ihren Namen abspeichern müssen und dann gegeneinander spielen. Wer die größere Augenzahl würfelt bekommt einen Punkt.
+
 
 
