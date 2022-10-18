@@ -18,7 +18,7 @@ Diese Ausbildungsrichtung vermittelt alle informationstechnischen Kenntnisse, di
 
 ## **Beschreibung**
 
-### [TicTacToe] (https://github.com/MarisaCatic/MarkDown/tree/main/TicTacToe)
+### [TicTacToe](https://github.com/MarisaCatic/MarkDown/tree/main/TicTacToe)
 Zwei Spieler spielengegen einander, wobei sie abwechselnd ein leeres Feld mit ihrem Zeichen markieren. Es wird auf einem 3x3 Feld gespielt.
 
 
