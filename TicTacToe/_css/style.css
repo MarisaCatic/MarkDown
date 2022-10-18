@@ -1,0 +1,120 @@
+body {
+    color: black;
+    background-color:rgba(0, 0, 0, 0.281);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#ALL {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+#playBox1 {
+    grid-area: playBox1;
+}
+
+#playBox2 {
+    grid-area: playBox2;
+}
+
+#playBox3 {
+    grid-area: playBox3;
+}
+
+#playBox4 {
+    grid-area: playBox4;
+}
+
+#playBox5 {
+    grid-area: playBox5;
+}
+
+#playBox6 {
+    grid-area: playBox6;
+}
+
+#playBox7 {
+    grid-area: playBox7;
+}
+
+#playBox8 {
+    grid-area: playBox8;
+}
+
+#playBox9 {
+    grid-area: playBox9;
+}
+
+#mainBox {
+    width: 20em;
+    height: 20em;
+    display: grid;
+    grid-template-areas: 'playBox1 playBox2 playBox3' 'playBox4 playBox5 playBox6' 'playBox7 playBox8 playBox9';
+    grid-gap: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#mainBox>div {
+    text-align: center;
+    padding: 2em;
+    opacity: 0.55;
+    background-color: black;
+    transition: opacity 1.5s;
+}
+
+#erg {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#wrapper {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 10%;
+    margin-bottom: -1%;
+    text-decoration: underline 3px solid gray;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+button,
+input {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border: grey solid 1px;
+    width: 40%;
+    padding: 2%;
+}
+
+#subBox1 {
+    width: 50%;
+    padding: 2%;
+    margin-left: 28%;
+}
+
+#subBox2 {
+    padding: 2%;
+    width: 50%;
+    margin-left: 23.5%;
+}
+
+.subSubDiv {
+    margin: 0 auto;
+    display: flex;
+}

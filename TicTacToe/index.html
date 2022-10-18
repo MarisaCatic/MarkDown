@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/scriptfile.js" defer></script>
+    <link href="./_css/style.css" rel="stylesheet" type="text/css">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <div id="ALL">
+        <h1>TIC TAC TOE</h1>
+        <h3>2 player</h3>
+
+        <div id="mainBox">
+            <div class="playBoxes" id="playBox1" onclick="setItem('playBox1', '0', '0')"></div>
+            <div class="playBoxes" id="playBox2" onclick="setItem('playBox2', '0', '1')"></div>
+            <div class="playBoxes" id="playBox3" onclick="setItem('playBox3', '0', '2')"></div>
+            <div class="playBoxes" id="playBox4" onclick="setItem('playBox4', '1', '0')"></div>
+            <div class="playBoxes" id="playBox5" onclick="setItem('playBox5', '1', '1')"></div>
+            <div class="playBoxes" id="playBox6" onclick="setItem('playBox6', '1', '2')"></div>
+            <div class="playBoxes" id="playBox7" onclick="setItem('playBox7', '2', '0')"></div>
+            <div class="playBoxes" id="playBox8" onclick="setItem('playBox8', '2', '1')"></div>
+            <div class="playBoxes" id="playBox9" onclick="setItem('playBox9', '2', '2')"></div>
+        </div>
+
+        <div id="erg"></div>
+        <div id="wrapper">
+
+
+            <div id="subBox1">
+                <button id="resetGame" onclick="resetGame()">reset game</button>
+                <button id="resetScore" onclick="resetScore()">reset score</button>
+            </div>
+            <div id="subBox2">
+                <div class="subSubDiv">
+                    <input id="inputPlayer1" type="text" placeholder="name of player 1">
+                    <button onclick="setNamePlayer1()">set name</button>
+                </div>
+                <div class="subSubDiv ">
+                    <input id="inputPlayer2" type="text" placeholder="name of player 2">
+                    <button onclick="setNamePlayer2()">set name</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+
+    <script>
+
+		// Session Storage direkt als Array verwenden
+		// primitive Datentypen zuweisen (Strings, Integers)
+		sessionStorage[0] = 'Maxi';
+        sessionStorage[1] = 'Sebastian';
+		sessionStorage['age'] = 14;
+		sessionStorage['playerIsAlive'] = true;
+        
+		
+		// Session Storage auslesen (primitive Datentypen)
+		console.log(sessionStorage[0]);
+		console.log(sessionStorage[1]);
+		console.log(sessionStorage['age']);
+		console.log(sessionStorage['playerIsAlive']);
+
+
+		// Session Storage verändern (primitive Datentypen)
+		sessionStorage[1] = 'Susan';
+		sessionStorage['age'] = 93;
+		sessionStorage['playerIsAlive'] = false;
+
+
+		// veränderten Session Storage auslesen (primitive Datentypen)
+		console.log(sessionStorage[0]);
+		console.log(sessionStorage[1]);
+		console.log(sessionStorage['age']);
+		console.log(sessionStorage['playerIsAlive']);
+		
+    </script>
+
+</head>
+<body>
+    
+	<h1>Web Storage Testseite</h1>
+	<ul>
+		<li>direkte Verwendung mit Array Indizes</li>
+		<li>Zugriff wie assoziatives Array</li>
+		<li>Zuweisen primitiver Datentypen</li>
+		<li>Lesen primitiver Datentypen</li>
+		<li>Schreiben primitiver Datentypen</li>
+	</ul>
+	
+</body>
+</html>

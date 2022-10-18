@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  </style>
+
+  <script>
+
+  // Namen in Array abspeichern
+  let arr = new Array();
+  arr.push('Max');
+  arr.push('Sebastian');
+
+  // Array im Session Storage "people" ablegen
+  sessionStorage['people'] = JSON.stringify(arr);
+
+  </script>
+</head>
+<body>
+  <h1>Web Storage Testseite</h1>
+  <ul>
+    <li>Zugriff wie assoziatives Array</li>
+    <li>Speichern von JSON Objekten (stringify)</li>
+  </ul>
+  <a href="./session2.html">zu Seite 2</a>
+</body>
+</html>

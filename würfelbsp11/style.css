@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: center;
+}
+#result p{
+    font-size: 1.2rem;
+}
+#output-score{
+    font-size: 1.2em;
+}
+img{
+    width: 25%;
+    padding: 0.3%;
+}
+h1{
+    margin-top: 0;
+    font-size: 5em;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.073);
+    width: 5%;
+    transition: 1s ease;
+}
+button:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+p{
+    font-size: 0.7rem;
+    font-weight: bold ;
+}
+input{
+    padding: 0.7%;
+    margin-bottom: 1%;
+}
+#box{
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    display: flex;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen</title>
+    <link href="_css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <script>
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }      
+            var slideIndex = 1;
+                showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+
+        </script>
+    <body>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="navHeadings">
+                <a href="index.html">Home</a>
+                <a href="pages/schuhe.html">Schuhe</a>
+                <a href="pages/kleidung.html">Kleidung</a>
+                <a href="pages/gruendung.html">Gründung</a>
+                <a href="pages/produktion.html">Produktion</a>
+            </div>
+        </div>
+
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+    
+    
+    
+    
+    </body>
+</html>

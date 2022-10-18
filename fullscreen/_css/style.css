@@ -1,0 +1,232 @@
+/****main****/
+body{
+    background-image:url(../img/Home/281112.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+/****Nav****/
+.sidepanel {
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.4s;
+}
+
+.sidepanel a {
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidepanel .navHeadings a:hover {
+    background-color: hsla(196, 0%, 38%, 0.52);
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: hsla(360, 100%, 100%, 0);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.openbtn:hover {
+    background-color: hsla(196, 0%, 38%, 0.52);
+}
+
+/****Schuhe****/
+h2{
+    text-align: center;
+    padding-top:10px;
+}
+.container1{
+    display:flex;
+    flex-direction: row;
+}
+.container2{
+    background-color: lightgray;
+    display:flex;
+    flex-direction: row;
+}
+.row1{
+    margin:50px;
+    padding:1px;
+    
+}
+.row1 > p{
+    font-size: 150%;
+}
+.row2{
+    margin:50px;
+    padding:5px;
+}
+.row2 > p{
+    font-size: 150%; 
+}
+.shoes{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    max-height: 500px;
+    clip-path: polygon(11% 0, 100% 0%, 89% 100%, 0% 100%);
+}
+
+@media screen and (max-width: 1000px) {
+    .container1,
+    .container2{
+    flex-direction: column;
+  }
+    img{
+        margin:auto;
+        width:100%;
+    }
+}
+
+/****Kleidung****/
+.clothes{
+   clip-path: circle(50% at 50% 50%); 
+}
+.section5{
+    height: 40em;
+    width: 80%;
+    padding-top: 1em;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    box-sizing:border-box;
+    background-color: white;
+}
+
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display:none; 
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/****Gründung****/
+.found{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 100%;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+#found{
+    line-height: 1.5;
+}
+
+/****Produktion****/
+video{
+    margin: 0vh 15vw;
+    width: 70%;
+}
+h2{
+    text-align: center;
+    font-size: 240%;
+    padding-bottom: 0%;
+}

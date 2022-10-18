@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+
+    <script>
+
+		// Array aus Session Storage "people" auslesen
+		// und wieder in Variable ablegen
+        let arr = JSON.parse(sessionStorage['people']);
+		
+		console.log(arr);
+		
+		// Array verändern (neue Person hinzufügen)
+		arr.push('Sarah');
+		
+		// Session Storage "people" aktualisieren
+		sessionStorage['people'] = JSON.stringify(arr);
+		
+    </script>
+
+</head>
+<body>
+    <h1>Web Storage Testseite</h1>
+    <ul>
+        <li>Zugriff wie assoziatives Array</li>
+        <li>Lesen von JSON Objekten (parsen)</li>
+        <li>Update (neu speichern) von JSON Objekten (stringify)</li>
+    </ul>
+    <a href="./session1.html">zu Seite 1</a>
+</body>
+</html>
