@@ -23,5 +23,11 @@ Zwei Spieler spielengegen einander, wobei sie abwechselnd ein leeres Feld mit ih
 ### Würfelbeispiel
 Ein klassisches Würfelspiel bei dem zwei Spieler zunächst ihren Namen abspeichern müssen und dann gegeneinander spielen. Wer die größere Augenzahl würfelt bekommt einen Punkt.
 
+### Slideshow
+Eine Anreihung von Bildern bei denen man auf knopfdruck zum jeweil snächsten wechseln kann.
+
+### Collage - load more
+Eine Bilder Collage bei der man, wie der Name schon sagt, auf knopfdruck sich mehr anzeigen lassen kann. Hierbei sind die Bilder auf dem Laptop davor abgespeichert.
+
 
 
