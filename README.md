@@ -38,3 +38,5 @@ Genauso wie die letztes Aufgabe aufgebaut. Unterschied ist: nun erscheinen ohne 
 ### Fullscreen
 Eine Wiederholung von dem Stoff von der 1. Klasse. In der Website wird ein beliebiges Thema vorgestellt bei dem Audio-, Video-, Animations-, Transitions-, und Textelemente eingebaut werden.
 
+### SpriteAnimation
+Ein Minispiel bei dem man mit dem kleinen Sonik Sprite eine gewisse Anzahl von Münzen einsammeln muss bevor die Zeit vorbei ist.    
