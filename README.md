@@ -47,4 +47,8 @@ Eine Wiederholung von dem Stoff von der 1. Klasse. In der Website wird ein belie
 
 
 ### [SpriteAnimation](https://github.com/MarisaCatic/MarkDown/tree/main/SpriteAnimation)
-Ein Minispiel bei dem man mit dem kleinen Sonik Sprite eine gewisse Anzahl von Münzen einsammeln muss bevor die Zeit vorbei ist.    
+Ein Minispiel bei dem man mit dem kleinen Sonik Sprite eine gewisse Anzahl von Münzen einsammeln muss bevor die Zeit vorbei ist.   
+
+
+### [Session Storage](https://github.com/MarisaCatic/MarkDown/tree/main/sessionStorage)
+Session Storage stellt für jeden vorhandenen Ausgangspunkt für die Dauer des Seitenbesuchs einen separaten Speicherbereich bereit.
