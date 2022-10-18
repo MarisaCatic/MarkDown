@@ -30,19 +30,19 @@ Ein klassisches Würfelspiel bei dem zwei Spieler zunächst ihren Namen abspeich
 Eine Anreihung von Bildern bei denen man auf knopfdruck zum jeweil snächsten wechseln kann.
 
 
-### Collage - load more
+### [Collage - load more](https://github.com/MarisaCatic/MarkDown/tree/main/bildercollage-loadMore)
 Eine Bilder Collage bei der man, wie der Name schon sagt, auf knopfdruck sich mehr anzeigen lassen kann. Hierbei sind die Bilder auf dem Laptop davor abgespeichert.
 
 
-### Collage - random
+### [Collage - random](https://github.com/MarisaCatic/MarkDown/tree/main/bildercollage-random)
 Diese Übung ist der vorherigen sehr ähnlich. Der einzige Unterschied ist, dass diesmal die Bilder nicht vorher abgespeichert wurden, sondern per Zufall ausgegeben werden.
 
 
-### Collage - automatisch
+### [Collage - automatisch](https://github.com/MarisaCatic/MarkDown/tree/main/bildercollage-volautomatisch)
 Genauso wie die letztes Aufgabe aufgebaut. Unterschied ist: nun erscheinen ohne knopfdruck neue zufällige Bilder.
 
 
-### Fullscreen
+### [Fullscreen](https://github.com/MarisaCatic/MarkDown/tree/main/fullscreen)
 Eine Wiederholung von dem Stoff von der 1. Klasse. In der Website wird ein beliebiges Thema vorgestellt bei dem Audio-, Video-, Animations-, Transitions-, und Textelemente eingebaut werden.
 
 
