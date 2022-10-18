@@ -16,7 +16,7 @@ Diese Ausbildungsrichtung vermittelt alle informationstechnischen Kenntnisse, di
 9. Session Storage
 
 
-## Beschreibung
+## **Beschreibung**
 
 ### TicTacToe
 Zwei Spieler spielengegen einander, wobei sie abwechselnd ein leeres Feld mit ihrem Zeichen markieren. Es wird auf einem 3x3 Feld gespielt.
