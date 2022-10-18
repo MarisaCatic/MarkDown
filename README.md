@@ -15,28 +15,36 @@ Diese Ausbildungsrichtung vermittelt alle informationstechnischen Kenntnisse, di
 8. SpriteAnimation - Minispiel
 9. Session Storage
 
+
 ## Beschreibung
 
 ### TicTacToe
 Zwei Spieler spielengegen einander, wobei sie abwechselnd ein leeres Feld mit ihrem Zeichen markieren. Es wird auf einem 3x3 Feld gespielt.
 
+
 ### Würfelbeispiel
 Ein klassisches Würfelspiel bei dem zwei Spieler zunächst ihren Namen abspeichern müssen und dann gegeneinander spielen. Wer die größere Augenzahl würfelt bekommt einen Punkt.
+
 
 ### Slideshow
 Eine Anreihung von Bildern bei denen man auf knopfdruck zum jeweil snächsten wechseln kann.
 
+
 ### Collage - load more
 Eine Bilder Collage bei der man, wie der Name schon sagt, auf knopfdruck sich mehr anzeigen lassen kann. Hierbei sind die Bilder auf dem Laptop davor abgespeichert.
+
 
 ### Collage - random
 Diese Übung ist der vorherigen sehr ähnlich. Der einzige Unterschied ist, dass diesmal die Bilder nicht vorher abgespeichert wurden, sondern per Zufall ausgegeben werden.
 
+
 ### Collage - automatisch
 Genauso wie die letztes Aufgabe aufgebaut. Unterschied ist: nun erscheinen ohne knopfdruck neue zufällige Bilder.
 
+
 ### Fullscreen
 Eine Wiederholung von dem Stoff von der 1. Klasse. In der Website wird ein beliebiges Thema vorgestellt bei dem Audio-, Video-, Animations-, Transitions-, und Textelemente eingebaut werden.
+
 
 ### SpriteAnimation
 Ein Minispiel bei dem man mit dem kleinen Sonik Sprite eine gewisse Anzahl von Münzen einsammeln muss bevor die Zeit vorbei ist.    
