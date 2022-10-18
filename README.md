@@ -18,15 +18,15 @@ Diese Ausbildungsrichtung vermittelt alle informationstechnischen Kenntnisse, di
 
 ## **Beschreibung**
 
-### TicTacToe
+### [TicTacToe] (https://github.com/MarisaCatic/MarkDown/tree/main/TicTacToe)
 Zwei Spieler spielengegen einander, wobei sie abwechselnd ein leeres Feld mit ihrem Zeichen markieren. Es wird auf einem 3x3 Feld gespielt.
 
 
-### Würfelbeispiel
+### [Würfelbeispiel](https://github.com/MarisaCatic/MarkDown/tree/main/w%C3%BCrfelbsp11)
 Ein klassisches Würfelspiel bei dem zwei Spieler zunächst ihren Namen abspeichern müssen und dann gegeneinander spielen. Wer die größere Augenzahl würfelt bekommt einen Punkt.
 
 
-### Slideshow
+### [Slideshow](https://github.com/MarisaCatic/MarkDown/tree/main/bildslideshow_V1)
 Eine Anreihung von Bildern bei denen man auf knopfdruck zum jeweil snächsten wechseln kann.
 
 
@@ -46,5 +46,5 @@ Genauso wie die letztes Aufgabe aufgebaut. Unterschied ist: nun erscheinen ohne 
 Eine Wiederholung von dem Stoff von der 1. Klasse. In der Website wird ein beliebiges Thema vorgestellt bei dem Audio-, Video-, Animations-, Transitions-, und Textelemente eingebaut werden.
 
 
-### SpriteAnimation
+### [SpriteAnimation](https://github.com/MarisaCatic/MarkDown/tree/main/SpriteAnimation)
 Ein Minispiel bei dem man mit dem kleinen Sonik Sprite eine gewisse Anzahl von Münzen einsammeln muss bevor die Zeit vorbei ist.    
